@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio – projects, resume, contact." />
+  <title>Ankita Harihar – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">&lt;Ankita Harihar&gt;</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav" id="navMenu" aria-label="Primary">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HOME ===================== -->
+  <section id="home" class="section home-section">
+    <div class="container grid two-col">
+      <div class="home-text reveal">
+        <h1>Hi, I'm <span class="accent">Ankita Harihar</span></h1>
+        <p>I’m a <strong>Full-Stack Developer</strong> who loves building clean UIs and solving real problems with code.<br><br>I am passionate about learning by building. I regularly explore modern software development workflows and follow roadmap-based learning to stay on track. </p>
+        <div class="cta-group">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/Adownloader17" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/ankita-harihar-79180127b/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+      </div>
+      <div class="home-photo reveal">
+        <img src="Anni.jpeg" alt="Your profile picture" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="grid two-col">
+        <div class="reveal">
+          <p>
+            I'm a passionate developer with experience in HTML, CSS, JavaScript, React, Node.js,
+            and MongoDB. I love creating delightful user experiences and performant web apps.
+          </p>
+          <p>
+            <strong>Computer Science student</strong>, actively learning CI/CD, C#, and building personal projects.
+          </p>
+        </div>
+        <div class="skills reveal">
+          <h3>Skills</h3>
+          <ul class="skills-list">
+            <li>
+              <span>HTML / CSS</span>
+              <span class="skill-bar" style="--level: 95%"></span>
+            </li>
+            <li>
+              <span>JavaScript</span>
+              <span class="skill-bar" style="--level: 85%"></span>
+            </li>
+            <li>
+              <span>React</span>
+              <span class="skill-bar" style="--level: 80%"></span>
+            </li>
+            <li>
+              <span>Node.js</span>
+              <span class="skill-bar" style="--level: 75%"></span>
+            </li>
+            <li>
+              <span>MongoDB</span>
+              <span class="skill-bar" style="--level: 70%"></span>
+            </li>
+             <li>
+              <span>Python</span>
+              <span class="skill-bar" style="--level: 70%"></span>
+            </li> <li>
+              <span>Flask</span>
+              <span class="skill-bar" style="--level: 70%"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <article class="project-card reveal">
+          <img src="https://i.pinimg.com/1200x/22/a5/7a/22a57a81e10180e3010155e36b7afbaa.jpg" alt="Project screenshot" />
+          <div class="project-content">
+            <h3>Online Car Showroom</h3>
+            <p>A full-stack web app for browsing, filtering, and booking cars. Built with HTML, CSS, JSt, and MongoDB.</p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>Python</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card reveal">
+          <img src="quiz.jpeg" alt="Project screenshot" />
+          <div class="project-content">
+            <h3>Quiz App</h3>
+            <p>Timed quiz application with scoreboard, built using HTML, CSS, and JavaScript.</p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/VitthalSutar/Quizzo_The-McQ" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="project-card reveal">
+          <img src="bot.png" alt="Project screenshot" />
+          <div class="project-content">
+            <h3>Detect Phishing URLs</h3>
+            <p>Enter a URL to check if it's a phishing site. Built with Python, Flask and JS.</p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            <ul class="tags">
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>JavaScript</li>
+              
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESUME ===================== -->
+  <section id="resume" class="section resume-section">
+    <div class="container">
+      <h2 class="section-title reveal">Resume</h2>
+      <div class="resume-actions reveal">
+        <a href="assets/YourName-Resume.pdf" class="btn primary" download>Download PDF</a>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>B.Tech in Computer Science</h3>
+            <span class="timeline-date">2022 – Present</span>
+            <p>Dr. Babasaheb Ambedkar Technological University, Lonere</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Full-Stack Developer Intern</h3>
+            <span class="timeline-date">Jun 2024 – Aug 2024</span>
+            <p>Worked on building REST APIs, React dashboards, and CI/CD pipelines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+      <form id="contactForm" class="contact-form reveal" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <small class="error" aria-live="polite"></small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          <small class="error" aria-live="polite"></small>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required></textarea>
+          <small class="error" aria-live="polite"></small>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ankita Harihar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
