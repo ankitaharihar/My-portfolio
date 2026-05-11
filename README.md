@@ -1,2 +1,2 @@
 My Portfolio
-about the what i have skill
+about the what i have skill earned 
